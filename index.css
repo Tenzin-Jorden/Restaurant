@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.adsttc.com/media/images/5e4c/1025/6ee6/7e0b/9d00/0877/large_jpg/feature_-_Main_hall_1.jpg?1582043123");
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-color: rgb(228, 225, 222);
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    display: flex; 
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background:rgba(59, 58, 58, 0.9);
+}
+.logo img{
+    color: white;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+.nav_link{
+    width: 70%;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+}
+.nav_link li a{
+    margin-left: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 0 20px;
+    right: 10%;
+}
+.nav_link li a:hover{
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+.flex-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-container div{ 
+    margin-top: 50px;
+}
+.flex1{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(241, 239, 236);
+    border-color: transparent;
+}
+#subname{
+    margin-top: 10px;
+    font-size: 3.5em;
+    color: rgb(54, 35, 35);
+}
+#welcome{
+    margin-top: 0;
+    font-family: 'Crimson Text', serif;
+    font-size: 2em;
+    color: rgb(19, 19, 17);
+}
+#wel{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Sansita Swashed', cursive;;
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+#subname1{
+    font-size: 2em;
+}
+.flex2{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    border-color: transparent;
+}
+.flex3{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    border-color: transparent;
+}
+#para{
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex3 img{
+    padding: 3px;
+}
+.flex3 h1{
+    font-size: 2.5em;
+}
+.flex4{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    font-size: large;
+    border-color: transparent;
+}
+.flex4 #sub{
+    font-size: xx-large;
+}
+.flex4 #mail{
+    float: right;
+    border-top: none;
+}
+button{
+    margin: 20px;
+    width: 30%;
+    height: 50px;
+    background-color: rgb(238, 188, 118);
+    font-size: large;
+    outline: none;
+    border-color: transparent;
+    color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(238, 160, 44);
+}
+.flex1 img{
+    width: 30%;
+    height: 180px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.flex2 img{
+    width: 20%;
+    height: 100px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.flex2 span{
+    margin: 80px;
+    font-size: x-large;
+    color: rgb(194, 108, 11);
+}
+#place{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.flex4{
+    padding-left: 100px;
+}
+#form button{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 30px;
+    font-size: small;
+    letter-spacing: 0;
+    border-radius: 5px;
+    background:rgb(201, 197, 197);
+    opacity: 1;
+    color: black;
+}
+#form input[type="email"]{
+    padding: 3px;
+}
+.foot{
+    margin-top: 60px;
+    background: black;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 8px;
+    opacity: 0.8;
+}
+.foot h1{
+    text-align: center;
+    font-size: xx-large;
+}
+

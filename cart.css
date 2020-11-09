@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-color: rgb(241, 233, 226);
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    display: flex; 
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background:rgba(71, 61, 61,0.9);
+}
+.logo img{
+    color: white;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+.nav_link{
+    width: 70%;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+}
+.nav_link li a{
+    margin-left: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 0 20px;
+    right: 10%;
+}
+.nav_link li a:hover{
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+.container{
+    padding-top: 65px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.container #cart{
+    font-size: xx-large;
+}
+.container #price{
+    font-size: xx-large;
+   padding-right: 230px;
+    float: right;
+}
+.grid-container{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 30% 50%;
+}
+.grid-container img{
+    padding-left: 20px;
+}
+#food{
+    font-size: xx-large;
+    color: rgb(25, 130, 216);
+}
+#stock{
+    margin-top: 8px;
+    color: green;
+}
+.grid-item2 button{
+    margin: 20px;
+    margin-left: 0;
+    padding: 1px;
+    border-radius: 5px;
+}
+.grid-item2 #rs{
+    float: right;
+    font-weight: 900;
+}
+.grid-item2 select{
+    width: 60px;
+}
+.container2{
+    max-width: 70%;
+    margin: 0 auto;
+}
+#sub{
+    margin-top: 0;
+    font-size: xx-large;
+   padding-right: 230px;
+    float: right;
+}
+.cash{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.cash button{
+    padding: 2px;
+
+}

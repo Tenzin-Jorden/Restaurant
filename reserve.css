@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9723.jpg");
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-color: rgb(228, 225, 222);
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    display: flex; 
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background:rgba(59, 58, 58, 0.9);
+}
+.logo img{
+    color: white;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+.nav_link{
+    width: 70%;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+}
+.nav_link li a{
+    margin-left: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 0 20px;
+    right: 10%;
+}
+.flex-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-container div{ 
+    margin-top: 50px;
+}
+.flex1{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: large;
+    background-color: rgb(241, 239, 236);
+    border-color: transparent;
+    font-size: large;
+}
+.flex1 h1{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.form {
+    border: 2px solid rgb(190, 190, 197);
+    width: 70%;
+    padding: 30px 40px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 20px 20px rgba(0,0,0, 0.2), 0 20px 50px rgba(0,0,0, 0.2);
+  }
+  
+  .form-controller {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-controller label {
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-controller select{
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+    width: 50%;
+    padding: 5px;
+  }
+  .form-controller select:focus{
+      outline: none;
+  }
+  
+  .form-controller input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .form-controller input:focus {
+    outline: 0;
+  }
+  
+  .form-controller small {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form-controller.error small {
+    visibility: visible;
+  }
+  
+  .form button {
+    cursor: pointer;
+    background-color: rgb(89, 202, 74);
+    border: 2px solid rgb(89, 202, 74);
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    outline: none;
+  }
+  

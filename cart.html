@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul class="nav_link">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="reserve.html">Reservation</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Photogallery</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <span id="cart">CART</span>
+        <p id="price">Price (Rs)</p>
+    </div>
+    <hr style="width: 59%; margin-left: 240px;">
+    <div class="grid-container">
+
+        <div class="grid-item1">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-oANwxA6N6gARh_gAt6pQhrXcHaVz0i6xPw&usqp=CAU">
+        </div>
+        <div class="grid-item2">
+            <span id="rs">120.00</span>
+            <p id="food">Hyderabadi Biryani</p>
+            <p id="stock">Available</p>
+            <button>Full Plate</button>
+            <button>Half Plate</button><br>
+            <select name="Qty" id="ewqrwe">
+                <option value="1">Qty: 1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+    </div>
+    <hr style="width: 59%; margin-left: 240px; margin-top: 20px">
+    <div class="container2">
+        <span id="sub">Subtotal: 120.00/-</span>
+    </div>
+    <form>
+        <div class="cash">
+            <h1>DELIVERY ADDRESS</h1><br><br>
+            <label> Full Name:</label><br>
+            <input type="text" placeholder="first">
+            <input type="text" placeholder="last"><br><br>
+            <label>Phone Number:</label><br>
+            <input type="text" placeholder="phone number"><br><br>
+            <label>Email:</label><br>
+            <input type="email" placeholder="email"><br><br>
+            <label>Address:</label><br>
+            <input type="text" placeholder="address"><br><br>
+            <button>CONFIRM</button>
+
+        </div>
+    </form>
+</body>
+
+</html>

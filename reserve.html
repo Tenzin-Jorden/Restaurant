@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVE-BIRYANI HOME</title>
+    <link rel="icon" href="logo.png">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="reserve.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <ul class="nav_link">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="reserve.html">Reservation</a>
+                    </li>
+                    <li>
+                        <a href="menu1.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Photogallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="flex-container">
+            <div class="flex1" id="flex">
+                <h1>MAKE YOUR RESERVATION</h1>
+                <form id="form" class="form">
+                    <div class="form-controller">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name">
+                        <small>error message</small>
+                    </div>
+                    <div class="form-controller">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Enter your email" />
+                        <small>error message</small>
+                    </div>
+                    <div class="form-controller">
+                        <label for="number">No. of person</label>
+                        <select id="mySelect">
+                            <option value="1">1 person</option>
+                            <option value="2">2 people</option>
+                            <option value="3">3 people</option>
+                            <option value="4">4 people</option>
+                            <option value="5">5 people</option>
+                            <option value="6">6 people</option>
+                            <option value="7">7 people</option>
+                            <option value="8">8 people</option>
+                            <option value="9">9 people</option>
+                            <option value="10">10 people</option>
+                            <option value="large">Large party</option>
+                        </select>
+                        <small>error message</small>
+                    </div>
+                    <div class="form-controller">
+                        <label for="date">Date and Time</label>
+                        <input type="date" id="date1">
+                    </div>
+                    <div class="form-controller">
+                        <label for="type">Types of reservation</label>
+                        <select id="wedd">
+                            <option value="Anniversary">Anniversary</option>
+                            <option value="Birthday">Birthday</option>
+                            <option value="Corporate">Corporate</option>
+                            <option value="Wedding">Wedding</option>
+                        </select>
+                    </div>
+                    <div class="form-controller"><label for="arr">Arrangement</label>
+                        <select id="day">
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                        </select>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+    <script src="reserve.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://www.taiyokagaku.com/en/products/img/img_products_02.png");
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-color: rgb(228, 225, 222);
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    display: flex; 
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background:rgba(59, 58, 58, 0.9);
+}
+.logo img{
+    color: white;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+.nav_link{
+    width: 70%;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+}
+.nav_link li a{
+    margin-left: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 0 20px;
+    right: 10%;
+}
+.nav_link li a:hover{
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+.flex-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.flex1{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(241, 239, 236);
+    border-color: transparent;
+    font-size: large;
+}
+.flex1 img{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+
+}
+.flex1 h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+
+}
+footer{
+    margin-top: 30px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    opacity: 0.8;
+}
+footer img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}

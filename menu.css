@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://ak.picdn.net/offset/photos/59415ebb17fb156e4806342f/medium/offset_578675.jpg");
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-color: rgb(241, 177, 117);
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    display: flex; 
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background:rgba(71, 61, 61,0.9);
+}
+.logo img{
+    color: white;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+.nav_link{
+    width: 70%;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+}
+.nav_link li a{
+    margin-left: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 0 20px;
+    right: 10%;
+}
+.nav_link li a:hover{
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+.flex-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 650px;
+    display: flex;
+    flex-direction: column;
+}
+.flex1{
+    width: 80%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin: -250px auto;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(241, 239, 236);
+    border-color: transparent;
+}
+.flex1 h2{
+    font-size: 3em;
+    font-family: cursive;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 30px;
+}
+.grid-container img{
+    border-radius: 5px;
+}
+.grid-item1{
+    margin-top: 30px;
+
+}
+.grid-item2{
+    margin-top: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+}
+.grid-item2 h3{
+    color: brown;
+}
+#menu{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 10em;
+    letter-spacing: 5px;
+    color: rgb(235, 231, 228);
+}
+footer{
+    margin-top: 450px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    opacity: 0.8;
+}
+footer p{
+    margin: 30px;
+    letter-spacing: 3px;
+}
